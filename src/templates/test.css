@@ -1,0 +1,490 @@
+body {
+    width: 640px;
+    background-color: #FFFFFF;
+  }
+
+  .bg-black {
+      background-color: #000000;
+  }
+
+  .bg-white {
+    background-color: #FFFFFF;
+}
+.txt-white {
+    color: #FFFFFF !important;
+}
+  @media only screen and (max-width: 639px) {
+      body {
+        width: 480px;
+      }
+  }
+  @media only screen and (max-width: 479px) {
+    body {
+        width: 320px;
+      }
+}
+  
+  /*=============================FONTS======================*/
+  .headline-black {
+      font-family: Arial, sans-serif; 
+      font-size: 28px; 
+      font-weight: bold; 
+      line-height: 35px;
+      font-syle: normal; 
+      color:#000000; 
+    }
+  .headline-white {
+      font-family: Arial, sans-serif; 
+      font-size: 28px; 
+      font-weight: bold; 
+      line-height: 35px;
+      font-syle: normal; 
+      color: #FFFFFF; 
+  }
+  .headline-gold {
+      font-family: Arial, sans-serif; 
+      font-size: 28px; 
+      font-weight: bold; 
+      line-height: 35px;
+      font-syle: normal; 
+      color: #F0AB00; 
+  }
+  .subtitle {
+      font-family: Arial, sans-serif; 
+      font-size: 18px; 
+      font-weight: 400; 
+      line-height: 23px;
+      font-syle: normal; 
+      color: #3C3C3C; 
+  }
+  .category {
+      font-family: Arial, sans-serif; 
+      font-size: 14px; 
+      font-weight: bold; 
+      line-height: 22px;
+      font-syle: normal; 
+      color: #969696; 
+  }
+  .titles {
+      font-family: Arial, sans-serif; 
+      font-size: 18px; 
+      font-weight: 400; 
+      line-height: 23px;
+      font-syle: normal; 
+      color: #000000; 
+  }
+  .paragraphs {
+      font-family: Arial, sans-serif; 
+      font-size: 16px; 
+      font-weight: 400; 
+      line-height: 22px;
+      font-syle: normal; 
+      color: #3C3C3C; 
+  }
+  .group-headline {
+      font-family: Arial, sans-serif; 
+      font-size: 24px; 
+      font-weight: bold; 
+      line-height: 28px;
+      font-syle: normal; 
+      color: #000000; 
+  }
+  .fine-print {
+      font-family: Arial, sans-serif; 
+      font-size: 12px; 
+      font-weight: 400; 
+      line-height: 22px;
+      font-syle: normal; 
+      color: #000000; 
+  }
+
+
+  /*=============================BUTTONS======================*/
+
+  .ds-button {
+      padding: 0.5rem 1.25rem;
+      font-size: 1rem;
+      background-color: #969696;
+      color: #ffffff;
+      border-color: transparent;
+      font-size: 1rem;
+      color: #3c3c3c;
+      font-family: "BentonSansBook", Avenir, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-style: normal;
+      line-height: 1.5;
+      display: -webkit-inline-box;
+      display: -webkit-inline-flex;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      padding: 0.5rem 1.25rem;
+      border: 1px solid transparent;
+      outline: none;
+      line-height: 1.5;
+      cursor: pointer;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+      vertical-align: top;
+    }
+    .ds-button--primary {
+      background-color: #007db8;
+      color: #ffffff;
+      border-color: transparent;
+    }
+    .ds-button--primary:hover, .ds-button--primary:focus {
+      background-color: #1e6a92;
+    }
+    .ds-button--secondary {
+        /* background-color: #ffffff;
+        color: #007db8;
+        border-color: #007db8; */
+        background-color: #3C3C3C;
+        color: #ffffff;
+        border-color: #ffffff;
+    }
+    .ds-button--secondary:hover, .ds-button--secondary:focus {
+        background-color: #1e6a92;
+        color: #ffffff;
+        border-color: transparent;
+      }
+
+
+
+    /*=============================LAYOUTS======================*/
+    .full-width-outer-grid {
+      width: 100%;
+      min-height: 100px;
+      height: 100px !important;
+      margin:0;
+      padding:0 0 0 0;
+    }
+    .full-width-inner-grid {
+      width: 100%;
+      min-height: 100px;
+      height: 100px !important;
+      margin:0;
+      padding:0 28px 0 28px;
+    }
+    .fifty-fifty-vertical {
+      width: 100%;
+      min-height: 100px;
+      height: 100px !important;
+      margin:0;
+      padding:0 28px 0 28px;
+    }
+    .fifty-fifty-horizontal {
+      width: 100%;
+      min-height: 100px;
+      height: 100px !important;
+      margin:0;
+      padding:0 28px 0 28px;
+    }
+    .fifty-fifty-split {
+      width: 100%;
+      min-height: 100px;
+      height: 100px !important;
+      margin:0;
+      padding:0 28px 0 28px;
+    }
+    .fifty-section {
+      width: 50%;
+      margin:0;
+      padding:0 0 0 0;
+      min-height: 100px;
+    }
+    .fifty-divider {
+      width: 0%;
+      border-right: 1px solid #C6C6C6;
+    }
+    .onethird-image {
+      width: 33%;
+      min-height: 100px;
+      height: 100px !important;
+      margin:0;
+      padding:0;
+    }
+    .onethird-section {
+      width: 66%;
+      min-height: 100px;
+      height: 100px !important;
+      margin:0;
+      padding:0;
+    }
+
+    @media only screen and (max-width: 639px) {
+        .fifty-section {
+          width: 100% !important;
+          display: block;
+        }
+        .fifty-divider {
+          width: 100% !important;
+          display: block;
+          border-top: 1px solid #C6C6C6;
+        }
+        .onethird-image {
+          width: 100% !important;
+          display: block;
+          min-height: 100px !important;
+          height: 100px !important;
+  
+        }
+        .onethird-section {
+          width: 100% !important;
+          display: block;
+          min-height: 100px !important;
+          height: 100px !important;
+  
+        }
+    }
+
+  /*=============================Lists======================*/
+  ul {
+      display: block;
+      list-style-type: disc;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 40px;
+  }
+  ol {
+      display: block;
+      list-style-type: decimal;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 40px;
+  }
+  li {
+      display: list-item;
+      text-align: -webkit-match-parent;
+  }
+  .list-icon {
+    width: 100px;
+    min-height: 50px;
+    height: 100px !important;
+    text-align: center;
+  }
+  .icon-list-section {
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+  }
+
+  /*=============================Links======================*/
+
+
+  /*=============================Section Divider======================*/
+  
+  .spacerS{
+    min-height: 12px;
+    }
+  .spacerM{ 
+    min-height: 20px;
+  }
+  .spacerL{ 
+    min-height: 32px;
+  }
+  .spacerXL{ 
+    min-height: 52px;
+  }
+  .spacerXXL{ 
+    min-height: 84px;
+  }
+   
+    /*============================= Masthead ======================*/
+
+    .masthead-contiainer {
+        width: 100%;
+        height: 64px;
+        margin:0;
+        padding:0 16px 0 16px;
+        vertical-align: middle;
+        
+    }
+
+    .masthead-logo-left {
+        width: 50%;
+        max-height: 32px; /* sub brand note and co brand */
+        /* background-color: green; */
+
+
+    }
+
+    .masthead-logo-right {
+        text-align: right;
+        width: 50%;
+        max-height: 32px; /* sub brand note and co brand */
+
+    }
+
+    .masthead-topbar {
+        height: 10px;
+        background-color: black; /* sub brand note and co brand */
+
+    }
+
+    
+    @media only screen and (max-width: 639px) {
+
+        .masthead-logo-right #thebestrun { /* subbrand and co brand*/
+            display: none !important;
+    
+        }
+    }
+
+      /*============================= Hero ======================*/
+
+    .hero-img {
+        max-height: 192px;
+        width: 100%;
+
+    }
+
+    .hero-container {
+        width: 100%;
+        background-color: #3C3C3C; /*grey1*/
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .hero-body {
+        width: 90% !important;
+        /* background-color: red; */
+        text-align: center;
+    }
+    .hero-subtitle {
+        padding-top: 12px !important;
+    }
+    .hero-btn {
+        margin-top: 12px !important;
+        margin-right: 6px;
+        margin-left: 6px;
+    }
+
+
+      /*============================= Footer ======================*/
+
+    .footer-media-container {
+        min-height: 100px;
+        width: 100%;
+        background-color: #222222;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .footer-media-contact {
+        width: 100%;
+        padding-top: 25px;
+        /* background-color: red; */
+    }
+    .footer-country {
+        width: 50%;
+        padding-bottom: 25px;
+        /* background-color: red; */
+    }
+    .footer-contact {
+        width: 50%;
+        padding-bottom: 25px;
+        /* background-color: red; */
+    }
+
+
+    .footer-media-actions {
+        width: 100%;
+        border-top-style: solid; 
+        border-bottom-style: solid; 
+        border-width: 1px; 
+        border-color: #555555;
+        /* background-color: green; */
+    }
+    .action-item {
+        padding-bottom: 25px; 
+        padding-top: 25px;
+   
+    }
+
+
+    .footer-media-social {
+        width: 100%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .footer-media-social-flex {
+        display: flex; 
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+    .footer-logo {
+
+    }
+    .footer-find-us {
+        padding-right: 10px;
+        vertical-align: middle;
+
+    }
+    .social-media-items {
+    }
+
+    @media only screen and (max-width: 639px) {
+
+        .footer-country {
+            width: 100%;
+            display: block;
+            /* background-color: red; */
+        }
+        .footer-contact {
+            width: 100%;
+            display: block;
+            /* background-color: red; */
+        }
+        .action-item {
+            width: 100%;
+            padding-bottom: 15px; 
+            padding-top: 15px;
+            display: block;
+            border-bottom-style: solid; 
+            border-width: 1px; 
+            border-color: #555555;
+        }
+        
+        .footer-media-actions {
+            border-bottom-style: none; 
+        }
+        .footer-media-social-flex {
+            flex-direction: column;
+
+        }
+
+        .footer-logo {
+            width: 100%;
+            padding: 0 !important;
+        }
+        .footer-find-us {
+            width: 100%;
+            padding-right: 0px !important;
+            padding-top: 20px;
+            padding-bottom: 15px;
+
+        }
+        .social-media-items {
+            width: 100%;
+
+        }
+    
+    }
+    
+
+
+
+
+

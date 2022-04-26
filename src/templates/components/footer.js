@@ -1,0 +1,1 @@
+export const canadaFooter = <canada-footer-component></canada-footer-component>;
